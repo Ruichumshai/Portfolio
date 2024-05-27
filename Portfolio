@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruichumshai Rephung - Photographer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            color: #444;
+        }
+        section {
+            margin: 50px 0;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            color: #555;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .about p, .contact p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .portfolio .category {
+            margin-bottom: 30px;
+        }
+        .portfolio .category h3 {
+            font-size: 1.5em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+        .contact a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ruichumshai Rephung</h1>
+            <p>Photographer based in Delhi</p>
+        </header>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hi, I am Ruichumshai Rephung. I am from Manipur, one of the NorthEastern states of India. I can speak English, Manipuri, Tangkhul, and a little bit of Hindi. I am a photographer based in Delhi. I have worked in a team as well as individually. I take my assignments and project seriously and give my best in everything, with a pinch of humour.</p>
+        </section>
+
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="category">
+                <h3>Nature & Wildlife</h3>
+                <img src="nature-wildlife.jpg" alt="Nature and Wildlife">
+            </div>
+            <div class="category">
+                <h3>Reflection</h3>
+                <img src="reflection.jpg" alt="Reflection">
+            </div>
+            <div class="category">
+                <h3>Taj Mahal</h3>
+                <img src="taj-mahal.jpg" alt="Taj Mahal">
+            </div>
+            <div class="category">
+                <h3>Black & White</h3>
+                <img src="black-white.jpg" alt="Black and White">
+            </div>
+            <div class="category">
+                <h3>Sports</h3>
+                <img src="sports.jpg" alt="Sports">
+            </div>
+            <div class="category">
+                <h3>Candids & Portraits</h3>
+                <img src="candids-portraits.jpg" alt="Candids and Portraits">
+            </div>
+            <div class="category">
+                <h3>Product & Fashion</h3>
+                <img src="product-fashion.jpg" alt="Product and Fashion">
+            </div>
+            <div class="category">
+                <h3>Party</h3>
+                <img src="party.jpg" alt="Party">
+            </div>
+            <div class="category">
+                <h3>Wedding</h3>
+                <img src="wedding.jpg" alt="Wedding">
+            </div>
+            <div class="category">
+                <h3>Lifestyle & Couples</h3>
+                <img src="lifestyle-couples.jpg" alt="Lifestyle and Couples">
+            </div>
+            <div class="category">
+                <h3>Events</h3>
+                <img src="events.jpg" alt="Events">
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Phone: +91 8413968666 / +91 7005 957625</p>
+            <p>Email: <a href="mailto:ruichumshair@gmail.com">ruichumshair@gmail.com</a></p>
+        </section>
+    </div>
+</body>
+</html>
